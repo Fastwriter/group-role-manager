@@ -1,0 +1,31 @@
+table {
+  td {
+    background: rgb(201, 201, 201) !important;
+    cursor: pointer;
+    border: 5px solid black;
+
+    &:hover {
+      background: white !important;
+      border-right: 5px solid white;
+    }
+  }
+}
+
+.sidebar {
+  background: black;
+  height: 100dvh;
+  padding: 0;
+}
+
+.member-table {
+  border: 5px solid black;
+  td {
+    background: white !important;
+    cursor: pointer;
+    border: none;
+
+    &:hover {
+      border-right: none !important;
+    }
+  }
+}
